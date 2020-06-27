@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/main-form.css" />
+  </head>
+  <body>
+    <header>
+      <h1>FORMULARIO HACKATHON3</h1>
+    </header>
+    <main>
+      <form method="get" action="#">
+        <section>
+          <label>
+            Nombre
+            <input
+              name="first_name"
+              type="text"
+              placeholder="Nombre"
+              required
+            />
+          </label>
+        </section>
+        <section>
+          <label>
+            Apellido
+            <input
+              name="last_name"
+              type="text"
+              placeholder="Apellido"
+              required
+            />
+          </label>
+        </section>
+        <section>
+          <label>
+            Edad
+            <input
+              type="number"
+              name="age"
+              placeholder="Edad"
+              min="18"
+              max="80"
+              required
+            />
+          </label>
+        </section>
+        <section>
+          <label>
+            Sexo
+            <select name="Sexo" id="">
+              <option value="">Genero</option>
+              <option value="1">Masculino</option>
+              <option value="2">Femenino</option>
+              <option value="3">Otro</option>
+            </select>
+          </label>
+        </section>
+        <section>
+          <fieldset>
+            <legend>Sexo</legend>
+            <label>
+              Masculino
+              <input type="radio" name="sex" checked />
+            </label>
+            <label>
+              Femenino
+              <input type="radio" name="sex" />
+            </label>
+            <label>
+              Otro
+              <input type="radio" name="sex" />
+            </label>
+          </fieldset>
+        </section>
+        <section>
+          <label>
+            Dni
+            <input
+              name="dni"
+              type="text"
+              placeholder="DNI"
+              minlength="8"
+              required
+              pattern="[A-Za-z0-9]+"
+            />
+          </label>
+        </section>
+        <section>
+          <label>
+            Email
+            <input name="email" type="email" placeholder="Correo" required />
+          </label>
+        </section>
+        <section>
+          <label>
+            Fecha
+            <input name="date" type="date" placeholder="Fecha" required />
+          </label>
+        </section>
+        <section>
+          <label>
+            Comentario
+            <br />
+            <textarea name="comments" cols="30" rows="10" required></textarea>
+          </label>
+        </section>
+        <button>Enviar Info</button>
+        <button type="reset">Resetear</button>
+      </form>
+    </main>
+  </body>
+</html>

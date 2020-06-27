@@ -1,0 +1,143 @@
+
+/* Propiedades Generales */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*Titulo*/
+h1 {
+  font-size: 64px;
+  text-align: center;
+  font-weight: bold;
+}
+/* Parrafo*/
+div.comment {
+  padding: 10px;
+  font-size: 36px;
+  font-weight: bold;
+  background-color: lightskyblue;
+}
+/*Subtitulos*/
+h2{
+  font-size: 36px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/*imgs*/
+figure img{
+  padding-right: 10px;
+}
+
+
+/*Secciones about*/
+.about{
+  background-color: #7299FE;
+  color: white;
+  font-size: 14px;
+  padding: 10px;
+}
+.about h2{
+  color: #1D06A7;
+  padding-top: 20px;
+}
+.about p {
+  padding: 20px;
+  text-align: justify;
+}
+.about a {
+  padding: 20px;
+}
+
+/*Secciones Skills*/
+.skills{
+  background-color: #9122FF;
+  color: white;
+  font-size: 14px;
+  padding: 20px;
+}
+
+.skills h2{
+    color: #26CC4B;
+    padding-top: 20px;
+}
+
+.skills ul{
+  padding: 30px;
+  justify-content: center;
+  display: flex;
+}
+
+/*Secciones Portafolio*/
+.portafolio{
+  background-color: #FFD233;
+  color: white;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.portafolio h2{
+  color: #00AD84;
+  padding-top: 20px;
+}
+
+.portafolio ul{
+  padding: 30px;
+  justify-content: center;
+  display: flex
+}
+
+/*Secciones Customers*/
+.customers{
+  background-color: #3F4E62;
+  color: white;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.customers h2{
+  color: #ADFF28;
+  padding-top: 20px;
+}
+
+.customers ul{
+  display: flex;
+  padding: 30px;
+  justify-content: center;
+}
+
+.customers figure img{
+  width: 180px;
+  height: 60px;
+}
+
+/*Secciones Contactos*/
+.contact{
+  background-color: #1687A0;
+  color: white;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.contact h2{
+  color: #FF1B1B;
+  padding-top: 20px;
+}
+
+div form{
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+input, textarea{
+  margin: 10px;
+  padding: 10px;
+}
+
+.send{
+  text-align: center;
+}
+
+.send button{
+  margin-right: 50px;
+}
