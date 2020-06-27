@@ -169,7 +169,7 @@ input{
 .secondaries-articules{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
-  justify-content: center;
+  justify-items: center;
 }
 
 .secondarie-articules2{
@@ -209,4 +209,35 @@ input{
     padding-bottom: 20px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   }
+
+.all-articules{
+  padding:10px;
 }
+
+.all-articules2{
+  display:inline-grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+  justify-items: start;
+}
+
+.all-articules2 figure img {
+  width: 100%;
+  padding:10px
+}
+
+.all-articules2 h2{
+  font-size: 18px;
+  font-weight: bold;
+  color: #1F3F68;
+  letter-spacing: 0.04em;
+  line-height: 28px;
+}
+
+.all-articules2 p{
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  line-height: 24px;
+  padding-bottom: 10px;
+}
+
+/*Post*/
